@@ -1,0 +1,75 @@
+/* Colors
+ * black #303030
+ * light tan #e0d7c5
+ * burnt orange #be5f27
+ * light brown #c3bbac
+ * brown #8e5942
+ * off-white #f2f2f2
+ * golden #d49b30
+*/
+
+/* Fonts */
+body {
+  font-family: Oswald, Regular;
+  color: #303030;
+}
+
+h1 {
+  font-size: 2.1em;
+}
+h2 {
+  font-size: 1.56em;
+  color: #f2f2f2;
+}
+h2 a:hover {
+  color: #d49b30;
+}
+h2 a {
+  font-style: italic;
+  text-decoration: underline;
+}
+h3 {
+  font-family: Oswald, Lato Black;
+  font-size: 1.125em;
+  color: #8e5942;
+  text-transform: uppercase;
+}
+h4 {
+  font-family: Oswald, Lato Light;
+  font-size: 1.125em;
+  color: #8e5942;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+nav p {
+  font-size; 1.06em;
+  line-height: 1em;
+}
+p {
+  line-height: 1.6em;
+}
+p a {
+  font-family: Oswald, Lato Bold Italic;
+  font-size: 1em;
+  color: #be5f27;
+}
+p a:hover {
+  text-decoration: underline;
+}
+footer p {
+  font-size: .9em;
+  color: #f2f2f2;
+}
+a {
+  cursor: pointer;
+}
+
+/* */
+nav {
+  background-color: #f2f2f2;
+  opacity: .9;
+}
+
+footer {
+  background-color: #be5f27;
+}
