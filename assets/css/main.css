@@ -90,6 +90,17 @@ nav * {
   height: 831px;
 }
 
+.title {
+  text-align: center;
+}
+.title  h1{
+  color: white;
+  background-color: #d49b30;
+  display: inline-block;
+  padding: 20px;
+  margin: 0;
+}
+
 footer {
   background-color: #be5f27;
 }
