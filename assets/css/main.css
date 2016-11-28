@@ -86,7 +86,7 @@ nav * {
   background-image: url('../images/fix-index-hero.jpg');
   background-position: 50% 80%;
   background-color: #8e5942;
-  width: 100%;
+  background-size: cover;
   height: 831px;
 }
 
