@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Chocolate Cake",
+    "description": "A rich moist chocolate cake with a chocolate buttercream icing. Most, delicious and everything in between."
+  },
+  {
+    "name": "German Chocolate Cake",
+    "description": "Three moist layers of chocolate cake, with a sweet and gooey carmel coconut frosting."
+  },
+  {
+    "name": "Peanut Butter Chocolate",
+    "description": "Out traditional rich chocolate cake layered with a whipped peanut butter frosting."
+  },
+  {
+    "name": "Toasted Almond",
+    "description": "A traditional, simple crowd-pleaser topped with a rich, cooked brown sugar frosting."
+  },
+  {
+    "name": "Carrot Cake",
+    "description": "A customer favorite! Dense, rich, rustic, walnut-studded and carrot-flecked. Topped with cream cheese frosting."
+  },
+  {
+    "name": "Tiramisu",
+    "description": "An authentic creation of rum and espresso-soaked ladyfingers layered with mascarpone custard and whipped cream."
+  },
+  {
+    "name": "Lemon Cake",
+    "description": "A refreshing four layer cake, filled with lemon curd and covered with lemon frosting."
+  },
+  {
+    "name": "Red Velvet",
+    "description": "A classic Southern cake that's slathered in cream cheese frosting and sprinkled with crushed pecans."
+  }
+]
