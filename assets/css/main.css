@@ -85,6 +85,9 @@ nav * {
 nav img {
   height: 50px;
 }
+nav a {
+  color: #303030;
+}
 
 .splash {
   background-image: url('../images/fix-index-hero.jpg');
