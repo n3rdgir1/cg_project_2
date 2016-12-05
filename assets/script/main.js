@@ -18,10 +18,10 @@ function activeNav(navItem) {
 window.onload = function addShared() {
   var nav = `
       <p class=${activeNav('menu')}><a href='menu.html'>menu</a></p>
-      <p class=${activeNav('custom')}><a>custom</a></p>
+      <p class=${activeNav('custom')}><a href='custom.html'>custom</a></p>
       <a href='index.html'><img src='assets/images/fix-logo.png' alt='FIX Cakes'></a>
-      <p class=${activeNav('about')}><a>about</a></p>
-      <p class=${activeNav('hours')}><a>hours</a></p>
+      <p class=${activeNav('about')}><a href='about.html'>about</a></p>
+      <p class=${activeNav('hours')}><a href='hours.html'>hours</a></p>
     `;
   document.getElementById("nav").innerHTML = nav;
 
