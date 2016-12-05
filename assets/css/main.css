@@ -87,6 +87,11 @@ nav img {
 }
 nav a {
   color: #303030;
+  text-decoration: none;
+}
+nav p.active a {
+  font-weight: 400;
+  color: #d49b30;
 }
 
 .splash {

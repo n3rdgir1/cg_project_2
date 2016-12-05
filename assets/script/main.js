@@ -8,13 +8,20 @@ $(window).scroll(function() {
   }
 });
 
+function activeNav(navItem) {
+  if(window.location.pathname.match(navItem))
+    return 'active';
+  else
+    return '';
+};
+
 window.onload = function addShared() {
   var nav = `
-      <p><a>menu</a></p>
-      <p><a>custom</a></p>
+      <p class=${activeNav('menu')}><a href='menu.html'>menu</a></p>
+      <p class=${activeNav('custom')}><a>custom</a></p>
       <a href='index.html'><img src='assets/images/fix-logo.png' alt='FIX Cakes'></a>
-      <p><a>about</a></p>
-      <p><a>hours</a></p>
+      <p class=${activeNav('about')}><a>about</a></p>
+      <p class=${activeNav('hours')}><a>hours</a></p>
     `;
   document.getElementById("nav").innerHTML = nav;
 
