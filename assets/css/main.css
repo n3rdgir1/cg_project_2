@@ -176,15 +176,17 @@ article, .hours {
   font-weight: 200;
 }
 
-.cakes *, .love * {
-  display: block;
-  margin: 0 auto;
-}
-
 .cakes, .love {
   font-family: Oswald, bold;
   text-transform: uppercase;
   line-height: .8em;
+}
+.cakes *, .love * {
+  display: block;
+  margin: 0 auto;
+}
+.cakes img, .love img {
+  padding: 15px;
 }
 
 .cakes {
