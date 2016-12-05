@@ -126,6 +126,10 @@ nav * {
   }
 }
 
+.big {
+  display: none;
+}
+
 .about {
   text-align: left;
   padding: 15px;
@@ -173,6 +177,7 @@ article, .hours {
   color: #c3bbac;
   display: flex;
   align-items: center;
+  margin: 15px;
 }
 
 footer {
@@ -182,4 +187,10 @@ footer {
 }
 footer .media {
   margin: 1em 0;
+}
+
+@media(min-width: 600px) {
+  .big {
+    display: block;
+  }
 }
