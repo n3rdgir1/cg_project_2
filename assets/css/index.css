@@ -1,0 +1,70 @@
+@media(min-width: 600px) {
+  .love, .hours p {
+    display: inline-block;
+    flex-grow: 1;
+    width: 1;
+  }
+
+  .hours {
+    display: flex;
+  }
+
+  .cakes {
+    padding: 50px 0;
+    margin-top: -90px;
+    z-index: -1;
+  }
+}
+
+.about {
+  text-align: left;
+  padding: 15px;
+}
+
+.cakes {
+  color: white;
+  background-color: #e0d7c5;
+}
+
+article, .hours {
+  text-align: center;
+  align-items: stretch;
+}
+
+.hours {
+  background-color: #8e5942;
+  color: white;
+  padding: 20px 0;
+  font-size: 1.25em;
+}
+.hours span {
+  font-weight: 200;
+}
+
+.cakes, .love {
+  font-family: Oswald, bold;
+  text-transform: uppercase;
+  line-height: .8em;
+}
+.cakes *, .love * {
+  display: block;
+  margin: 0 auto;
+}
+.cakes img, .love img {
+  padding: 15px;
+}
+
+.cakes {
+  font-size: 3.25em;
+  padding: 20px;
+}
+
+.love {
+  font-size: 2.5em;
+  text-align: center;
+  color: #c3bbac;
+  display: flex;
+  align-items: center;
+  margin: 15px;
+}
+
