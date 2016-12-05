@@ -95,11 +95,25 @@ nav p.active a {
 }
 
 .splash {
-  background-image: url('../images/fix-index-hero.jpg');
   background-position: 50% 80%;
   background-color: #8e5942;
   background-size: cover;
   height: 300px;
+}
+.index .splash {
+  background-image: url('../images/fix-index-hero.jpg');
+}
+.menu .splash {
+  background-image: url('../images/fix-menu-hero.jpg');
+}
+.custom .splash {
+  background-image: url('../images/fix-custom-hero.jpg');
+}
+.about .splash {
+  background-image: url('../images/fix-about-hero.jpg');
+}
+.hours .splash {
+  background-image: url('../images/fix-hours-hero.jpg');
 }
 
 @media(min-width: 600px) {
@@ -129,7 +143,7 @@ nav p.active a {
 }
 
 @media(min-width: 600px) {
-  .even, .love, .hours p {
+  .even, .love, .index .hours p {
     display: inline-block;
     flex-grow: 1;
     width: 1;
@@ -138,7 +152,7 @@ nav p.active a {
     flex-grow: 2;
     width: 1;
   }
-  article, .hours {
+  article, .index .hours {
     display: flex;
   }
   .cakes {
@@ -156,7 +170,7 @@ nav p.active a {
   display: none;
 }
 
-.about {
+.index .about {
   text-align: left;
   padding: 15px;
 }
@@ -166,18 +180,18 @@ nav p.active a {
   background-color: #e0d7c5;
 }
 
-article, .hours {
+article, .index .hours {
   text-align: center;
   align-items: stretch;
 }
 
-.hours {
+.index .hours {
   background-color: #8e5942;
   color: white;
   padding: 20px 0;
   font-size: 1.25em;
 }
-.hours span {
+.index .hours span {
   font-weight: 200;
 }
 

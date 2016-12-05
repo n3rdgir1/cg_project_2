@@ -8,14 +8,18 @@ $(window).scroll(function() {
   }
 });
 
+function page() {
+  return window.location.pathname.split("/").pop().split(".")[0];
+}
+
 function activeNav(navItem) {
-  if(window.location.pathname.match(navItem))
+  if(page() === navItem)
     return 'active';
   else
     return '';
 };
 
-window.onload = function addShared() {
+window.onload = function () {
   var nav = `
       <p class=${activeNav('menu')}><a href='menu.html'>menu</a></p>
       <p class=${activeNav('custom')}><a href='custom.html'>custom</a></p>
@@ -24,6 +28,8 @@ window.onload = function addShared() {
       <p class=${activeNav('hours')}><a href='hours.html'>hours</a></p>
     `;
   document.getElementById("nav").innerHTML = nav;
+
+  $("body").addClass(page());
 
   var footer = `
       <div class=even>
