@@ -50,6 +50,7 @@ nav p {
 }
 p {
   line-height: 1.6em;
+  margin: 1em;
 }
 p a {
   font-family: Oswald, Lato Bold Italic;
@@ -119,6 +120,10 @@ nav * {
     margin-top: -90px;
     z-index: -1;
   }
+  footer {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .about {
@@ -172,6 +177,9 @@ article, .hours {
 
 footer {
   background-color: #be5f27;
-  display: flex;
   text-align: center;
+  padding: 15px;
+}
+footer .media {
+  margin: 1em 0;
 }
