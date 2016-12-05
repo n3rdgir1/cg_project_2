@@ -127,8 +127,17 @@ nav * {
 
 article, .hours {
   text-align: center;
-/*  display: flex; */
   align-items: stretch;
+}
+
+.hours {
+  background-color: #8e5942;
+  color: white;
+  padding: 20px 0;
+  font-size: 1.25em;
+}
+.hours span {
+  font-weight: 200;
 }
 
 .cakes *, .love * {
