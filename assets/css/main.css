@@ -74,25 +74,16 @@ nav {
   opacity: .9;
   width: 100%;
   position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-@media(min-width: 600px) {
-  nav {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  nav * {
-    display: inline-block;
-  }
-  nav img {
-    margin: 15px;
-  }
-
-  nav.scrolled img {
-    height: 50px;
-  }
+nav * {
+  display: inline-block;
+  margin: .25em;
+}
+nav img {
+  height: 50px;
 }
 
 .splash {
@@ -100,7 +91,22 @@ nav {
   background-position: 50% 80%;
   background-color: #8e5942;
   background-size: cover;
-  height: 831px;
+  height: 300px;
+}
+
+@media(min-width: 600px) {
+  nav img {
+    height: 163px;
+    margin: 15px;
+  }
+
+  nav.scrolled img {
+    height: 50px;
+  }
+
+  .splash {
+    height: 831px;
+  }
 }
 
 .title {
