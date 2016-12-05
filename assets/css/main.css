@@ -114,10 +114,16 @@ nav * {
   article, .hours {
     display: flex;
   }
+  .cakes {
+    padding: 50px 0;
+    margin-top: -90px;
+    z-index: -1;
+  }
 }
 
 .about {
   text-align: left;
+  padding: 15px;
 }
 
 .cakes {
@@ -153,9 +159,7 @@ article, .hours {
 
 .cakes {
   font-size: 3.25em;
-  padding: 50px 0;
-  margin-top: -90px;
-  z-index: -1;
+  padding: 20px;
 }
 
 .love {
@@ -164,8 +168,6 @@ article, .hours {
   color: #c3bbac;
   display: flex;
   align-items: center;
-}
-.love span {
 }
 
 footer {
