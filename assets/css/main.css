@@ -75,12 +75,22 @@ nav {
   position: absolute;
   top: 0px;
   width: 100%;
-  text-align: center;
-  position: fixed;
 }
 
-nav * {
-  display: inline-block;
+@media(min-width: 600px) {
+  nav {
+    position: fixed;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  nav * {
+    display: inline-block;
+  }
+  nav img {
+    margin: 15px;
+  }
 }
 
 .splash {
