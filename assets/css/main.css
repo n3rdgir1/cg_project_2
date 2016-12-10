@@ -173,7 +173,7 @@ nav p.active a {
 .main {
   background-color: #e0d7c5;
   padding-bottom: 15px;
-  max-width: 700px;
+  max-width: 500px;
   margin: auto;
 }
 
@@ -192,7 +192,7 @@ nav p.active a {
 label {
   display: block;
   text-transform: uppercase;
-  margin: 5px 0;
+  margin: 25px 0 5px;
 }
 
 input, textarea {
@@ -200,6 +200,8 @@ input, textarea {
   line-height: 1.6em;
   box-shadow: 2px 2px 2px #888888;
   border: none;
+  padding: 5px;
+  outline: none;
 }
 textarea {
   height: 100px;
@@ -220,7 +222,7 @@ input[type="submit"] {
 }
 @media(min-width: 600px) {
   .main {
-    padding: 0 50px;
+    padding: 0 50px 15px;
   }
 }
 
