@@ -170,6 +170,30 @@ nav p.active a {
   display: none;
 }
 
+.main {
+  background-color: #e0d7c5;
+  padding-bottom: 15px;
+  max-width: 700px;
+  margin: auto;
+}
+
+.item {
+  border-bottom: 1px solid white;
+  margin: 0 15px;
+}
+.item:last-child {
+  border-bottom: none;
+}
+.item p {
+  margin: 15px 0;
+}
+
+@media(min-width: 600px) {
+  .main {
+    padding: 0 50px;
+  }
+}
+
 footer {
   background-color: #be5f27;
   text-align: center;
