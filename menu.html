@@ -4,7 +4,6 @@
     <meta content="width=device-width,maximum-scale=1.0,initial-scale=1.0,minimum-scale=1.0,user-scalable=yes" name="viewport">
 
     <link href='./assets/css/main.css' media='all' rel='stylesheet'>
-    <link href='./assets/css/menu.css' media='all' rel='stylesheet'>
   </head>
 
   <body>
@@ -13,10 +12,10 @@
     </div>
     <div class=main>
       <div class=title>
-        <h1>Cakes</h1>
-        <h1 class=inactive>Other</h1>
+        <h1 id=cakes onClick="toggleItems('cakes')">Cakes</h1>
+        <h1 id=other class=inactive onClick="toggleItems('other')">Other</h1>
       </div>
-      <div class=menu>
+      <div class=menu id=menu>
         <p>
           Made from scratch daily. Most cakes are available in a
           variety of sizes and by-the-slice.
@@ -37,5 +36,6 @@
     <footer id=footer> </footer>
     <script src='assets/script/jquery-3.1.1.min.js'></script>
     <script src='assets/script/main.js'></script>
+    <script src='assets/script/menu.js'></script>
   </body>
 </html>
