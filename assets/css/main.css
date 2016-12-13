@@ -153,6 +153,11 @@ nav p.active a {
   color: #d49b30;
 }
 
+.first {
+  margin-top: -90px;
+  z-index: -1;
+}
+
 @media(min-width: 600px) {
   .even {
     display: inline-block;
