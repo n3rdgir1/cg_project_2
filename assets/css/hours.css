@@ -1,0 +1,23 @@
+article {
+  text-align: left;
+}
+
+.light {
+  background-color: #c3bbac;
+}
+.light p {
+  font-size: 1.25em;
+  color: #8e5942;
+}
+.light span {
+  font-weight: 200;
+}
+
+.first div {
+  margin-top: 105px;
+}
+
+@media(min-width: 600px) {
+  .light div {
+    margin-left: 30px;
+  }
