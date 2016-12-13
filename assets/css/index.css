@@ -1,12 +1,8 @@
 @media(min-width: 600px) {
-  .love, .hours p {
+  .love {
     display: inline-block;
     flex-grow: 1;
     width: 1;
-  }
-
-  .hours {
-    display: flex;
   }
 
   .cakes {
@@ -26,19 +22,9 @@
   background-color: #e0d7c5;
 }
 
-article, .hours {
-  text-align: center;
+article {
   align-items: stretch;
-}
-
-.hours {
-  background-color: #8e5942;
-  color: white;
-  padding: 20px 0;
-  font-size: 1.25em;
-}
-.hours span {
-  font-weight: 200;
+  text-align: center;
 }
 
 .cakes, .love {

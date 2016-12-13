@@ -188,6 +188,31 @@ nav p.active a {
   margin: 15px 0;
 }
 
+.divider {
+  text-align: center;
+  align-items: stretch;
+}
+.divider {
+  background-color: #8e5942;
+  color: white;
+  padding: 20px 0;
+  font-size: 1.25em;
+}
+.divider span {
+  font-weight: 200;
+}
+@media(min-width: 600px) {
+  .divider p {
+    display: inline-block;
+    flex-grow: 1;
+    width: 1;
+  }
+
+  .divider {
+    display: flex;
+  }
+}
+
 /* Form */
 label {
   display: block;
