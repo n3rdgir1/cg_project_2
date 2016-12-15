@@ -17,9 +17,9 @@ function activeNav(navItem) {
     return 'active';
   else
     return '';
-};
+}
 
-window.onload = function () {
+function headerFooter() {
   var nav = `
       <p class=${activeNav('menu')}><a href='menu.html'>menu</a></p>
       <p class=${activeNav('custom')}><a href='custom.html'>custom</a></p>
@@ -59,3 +59,4 @@ window.onload = function () {
   document.getElementById("footer").innerHTML = footer;
 
 }
+window.onload = headerFooter();

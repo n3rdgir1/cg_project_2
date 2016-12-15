@@ -4,7 +4,7 @@ function toggleItems(id) {
   $(`#${id}`).siblings()[0].className = 'inactive';
 }
 
-window.onload = function () {
+function getMenuItems() {
   var menu = document.getElementById('menu');
   $.getJSON("https://n3rdgir1.github.io/cg_project_2/inventory.json", function(result){
     $.each(result, function(i, item){
@@ -25,3 +25,8 @@ window.onload = function () {
     });
   });
 }
+
+window.onload = function() {
+  headerFooter();
+  getMenuItems();
+};
