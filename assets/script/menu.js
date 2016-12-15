@@ -7,7 +7,7 @@ function toggleItems(id) {
 function getMenuItems() {
   var items = document.getElementById('items');
   $.getJSON("https://n3rdgir1.github.io/cg_project_2/inventory.json", function(result){
-    $.each(result, function(i, item){
+    $.each(result.sort(function(a,b){return a.name.localeCompare(b.name);}), function(i, item){
       if(item.type == 'Cake' || item.type == 'Other') {
         var div = document.createElement('div');
         div.className = `item ${item.type}`;
