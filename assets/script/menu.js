@@ -5,7 +5,7 @@ function toggleItems(id) {
 }
 
 function getMenuItems() {
-  var menu = document.getElementById('menu');
+  var items = document.getElementById('items');
   $.getJSON("https://n3rdgir1.github.io/cg_project_2/inventory.json", function(result){
     $.each(result, function(i, item){
       if(item.type == 'Cake' || item.type == 'Other') {
@@ -20,9 +20,21 @@ function getMenuItems() {
         content.append(item.description);
         div.appendChild(content);
 
-        menu.appendChild(div);
+        items.appendChild(div);
       }
     });
+    var div = document.createElement('div');
+    div.className = 'item';
+
+    var name = document.createElement('h3');
+    name.appendChild(document.createTextNode('Custom Orders'));
+    div.appendChild(name);
+
+    var content = document.createElement('p');
+    content.innerHTML = "Please see our <a href='custom.html'>Custom Orders</a> page";
+    div.appendChild(content);
+
+    items.appendChild(div);
   });
 }
 
